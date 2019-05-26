@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/about")
 def hello():
-    name = "ricky"
+    name = "devdarshan"
     return render_template("index.htm",name2=name)
 
 @app.route("/")
